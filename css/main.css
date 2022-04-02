@@ -1,0 +1,43 @@
+:root {
+    --text-color: #667085;
+    --main-color: #8E2424;
+}
+
+.vagas-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem;
+}
+
+.vagas-container button{
+    color: var(--main-color);
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    border-radius: 16px;
+    border: none;
+    padding: 4px 12px;
+    cursor: pointer;
+}
+
+.vagas-container h1{
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 2.75rem;
+    padding-top: 16px;
+    margin: 0;
+}
+
+.vagas-container p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    padding-top: 20px;
+}
+
+.vagas-img{
+    padding: 64px 0;
+    width: 100%;
+}
