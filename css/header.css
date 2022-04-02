@@ -1,0 +1,89 @@
+:root {
+    --text-color: #667085;
+    --main-color: #8E2424;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu a{
+    display: block;
+    padding: .5rem;
+    color: var(--text-color);
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.btn-cadastrar{
+    background-color: var(--main-color);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    padding: .625rem 1.125rem;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-entrar{
+    background-color: white;
+    color: var(--text-color);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    padding: .625rem 1.125rem;
+    border: .0625rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-mobile{
+    display: none;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 960px) {
+    .menu{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
+
+@media(max-width: 850px){
+    header{
+        justify-content: space-between;
+    }
+    .menu{
+        display: none;
+    }
+
+    .btn-mobile{
+        display: block;
+    }
+
+    .buttons{
+        display: none;
+    }
+}
