@@ -2,6 +2,7 @@
     --text-color: #667085;
     --main-color: #8E2424;
 }
+
 .about-us{
     display: flex;
     text-align: center;
@@ -49,11 +50,13 @@
     font-size: 1.125rem;
     font-weight: 500;
     line-height: 1.75rem;
+    padding: .75rem 0 .5rem 0;
 }
 
 .metricas-container p{
     font-size: 1rem;
     line-height: 1.5rem;
+    color: var(--text-color);
 }
 
 @media (max-width: 960px) {
