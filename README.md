@@ -6,4 +6,6 @@ DAY #2 - Section 'Sobre nós'
 
 DAY #3 - Section 'Métricas'
 
-DAY #4 - Section 'Vagas'
+DAY #4 - Section 'Imagem'
+
+DAY #5 - Section 'Vagas'
