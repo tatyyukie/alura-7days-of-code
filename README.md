@@ -1,11 +1,11 @@
 # alura-7days-of-code
 
-DAY #1 - Header
+Dia #1 - Header
 
-DAY #2 - Section 'Sobre nós'
+Dia #2 - Section 'Sobre nós'
 
-DAY #3 - Section 'Métricas'
+Dia #3 - Section 'Métricas'
 
-DAY #4 - Section 'Imagem'
+Dia #4 - Section 'Imagem'
 
-DAY #5 - Section 'Vagas'
+Dia #5 - Section 'Vagas'
