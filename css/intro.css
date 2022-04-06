@@ -3,7 +3,7 @@
     --main-color: #8E2424;
 }
 
-.about-us{
+.section-about-us{
     display: flex;
     text-align: center;
     justify-content: center;
@@ -11,7 +11,7 @@
     padding: 6rem 0;
 }
 
-.about-us span {
+.section-about-us span {
     color: var(--main-color);
     font-size: 1rem;
     font-weight: 600;
@@ -19,7 +19,7 @@
     margin-bottom: 1.5rem;
 }
 
-.about-us h1{
+.section-about-us h1{
     font-size: 3rem;
     font-weight: 600;
     line-height: 3.75rem;
@@ -27,33 +27,34 @@
     margin-bottom: 2.25rem;
 }
 
-.about-us p{ 
+.section-about-us p{ 
     color: var(--text-color);
     font-size: 1.25rem;
     font-weight: 400;
 }
 
-.metricas-container{
+.section-metricas{
     display: flex;
     gap: 32px;
     justify-content: center;
+    padding: 0 0 6rem;
 }
 
-.metricas-container h2{
+.section-metricas h2{
     font-size: 3.75rem;
     font-weight: 600;
     line-height: 4.5rem;
     color: var(--main-color);
 }
 
-.metricas-container h4{
+.section-metricas h4{
     font-size: 1.125rem;
     font-weight: 500;
     line-height: 1.75rem;
     padding: .75rem 0 .5rem 0;
 }
 
-.metricas-container p{
+.section-metricas p{
     font-size: 1rem;
     line-height: 1.5rem;
     color: var(--text-color);
@@ -76,15 +77,15 @@
         font-weight: 400;
     }
 
-    .metricas-container h2{
+    .section-metricas h2{
         font-size: 2.75rem;
     }
 
-    .metricas-container h4{
+    .section-metricas h4{
         font-size: 1rem;
     }
 
-    .metricas-container p{
+    .section-metricas p{
         font-size: .875rem;
     }
 }
