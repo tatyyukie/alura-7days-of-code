@@ -5,8 +5,8 @@
 
 header{
     display: flex;
-    justify-content: space-around;
-    margin: 1.125rem auto;
+    justify-content: space-between;
+    padding: 1.125rem 7rem;
     box-sizing: border-box;
 }
 

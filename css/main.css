@@ -8,7 +8,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 4rem 0;
+    margin: 4rem 112px;
 }
 
 .talento-content button{
@@ -27,7 +27,6 @@
     font-weight: 600;
     line-height: 2.75rem;
     padding-top: 16px;
-    margin: 0;
 }
 
 .talento-content span{
@@ -51,7 +50,7 @@
 .section-vagas{
     display: flex;
     flex-direction: column;
-    margin: 0 16rem;
+    margin: 0 20%;
     gap: 64px;
 }
 
@@ -108,7 +107,7 @@
     padding: 64px;
     gap: 2rem;
     text-align: center;
-    margin: 6rem 0;
+    margin: 6rem 7rem;
 }
 
 .about-colab h4{
